@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner-container {
+  text-align: end;
+  padding-right: 230px;
+  padding-top: 200px;
+  padding-bottom: 185px;
+  background-image: url("../banner/banner1.png");
+}
+.banner-title {
+  font-size: 4rem;
+}
+.banner-paragraph {
+  color: #444343;
+  margin-top: 24px;
+}
+.banner-btn {
+  font-size: 1.25rem;
+  color: white;
+  background-color: #f15b22;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+/* person section  */
+.person-container {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+  padding-left: 200px;
+  margin-top: 130px;
+}
+.person-title {
+  font-size: 2.5rem;
+}
+.person-paragraph {
+  color: #444343;
+  margin-top: 20px;
+}
+.person-list {
+  color: #444343;
+  margin-top: 15px;
+}
+/* plans section */
+.plans-container {
+  margin-top: 130px;
+}
+.plans-icon-section {
+  display: flex;
+  gap: 85px;
+  padding: 50px 230px 0 230px;
+  text-align: center;
+}
+.plans-title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.plans-icon-title {
+  font-size: 2rem;
+}
+.plans-icon-paragraph {
+  color: #737272;
+}
+/* positive mindset section */
+.positive-container {
+  padding: 60px 0 60px 259px;
+  margin-top: 130px;
+  background-image: url("../watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.positive-title {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+.positive-btn {
+  background-color: #ffffff;
+  color: #f15b22;
+  padding: 20px 36px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+.future-footer-section {
+  background-color: #151414;
+  display: flex;
+  color: #ffffff;
+  gap: 330px;
+  padding: 130px 230px;
+  margin-top: 130px;
+}
+.future-paragraph {
+  margin-top: 16px;
+}
+.email {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.future-icon {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+#your-email {
+  background: none;
+  font-size: 1.125rem;
+
+  border: solid 1px #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.subscribe-btn {
+  background-color: #ffffff;
+  border: none;
+  color: #f15b22;
+  padding: 20px 35px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
